@@ -1,0 +1,1 @@
+No full-year window met coverage threshold; using overlapping date extent across sites: 2018-09-01 to 2024-06-30

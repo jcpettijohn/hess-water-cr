@@ -1,0 +1,4 @@
+label,b_fit,chord_dev,h_m,tau_s,r_a,alpha_PT
+"Strong adjustment: shallow h, moderate ventilation",2.1538684258216776,0.018487440483510087,300.0,21600.0,30.0,1.26
+Intermediate adjustment: baseline,0.4087885170446752,0.010210727705294742,1000.0,21600.0,50.0,1.26
+"Weak adjustment: deep h, faster relaxation, weaker ventilation",0.05027640145406536,0.001928682862267106,2000.0,7200.0,70.0,1.26

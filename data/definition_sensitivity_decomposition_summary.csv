@@ -1,0 +1,3 @@
+n_states,n_nonzero_dx,x_base_min,x_base_max,dx_total_maxabs,dx_p0_maxabs,dx_pa_maxabs,dx_int_maxabs,closure_maxabs,median_abs_frac_p0,median_abs_frac_pa,median_abs_frac_int,p95_abs_frac_p0,p95_abs_frac_pa,p95_abs_frac_int,definition_baseline,definition_alt,eps
+41,41,0.5771298990323979,0.8050993524433163,0.19490064755214753,0.19490064755214753,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,PT_wetref,ML_wetconst,1e-10
+41,41,0.5771298990323979,0.8050993524433163,0.02790674712509844,0.02790674712509844,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,PT_wetref,PT_dry,1e-10

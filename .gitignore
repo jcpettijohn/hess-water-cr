@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data that should NOT be tracked in git
+data/raw/
+**/*.parquet
+**/*.h5
+**/*.zip
+
+# Outputs (choose whether to track final outputs or not)
+# outputs/

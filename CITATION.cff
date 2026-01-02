@@ -1,0 +1,11 @@
+cat > CITATION.cff << 'EOF'
+cff-version: 1.2.0
+message: "If you use this code, please cite the Zenodo archive DOI (see repository README)."
+title: "HESS Water CR: code and plot data"
+authors:
+  - family-names: "Pettijohn"
+    given-names: "J. Cory"
+repository-code: "https://github.com/jcpettijohn/hess-water-cr"
+license: "MIT"
+EOF
+
