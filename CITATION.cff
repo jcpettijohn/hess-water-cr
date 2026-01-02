@@ -1,5 +1,5 @@
 cat > CITATION.cff << 'EOF'
-cff-version: 1.2.0
+cff-version: 1.1.0-review
 message: "If you use this code, please cite the Zenodo archive DOI (see repository README)."
 title: "HESS Water CR: code and plot data"
 authors:
