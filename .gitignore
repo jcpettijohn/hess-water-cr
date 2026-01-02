@@ -1,22 +1,16 @@
-# Python
+.DS_Store
 __pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-.env
-
-# Jupyter
+*.pyc
 .ipynb_checkpoints/
 
-# OS
-.DS_Store
-
-# Data that should NOT be tracked in git
+# big data / raw downloads (adjust to your folder names)
+NEON/
 data/raw/
-**/*.parquet
-**/*.h5
-**/*.zip
+raw/
+*.h5
+*.parquet
+*.zip
 
-# Outputs (choose whether to track final outputs or not)
-# outputs/
+# old/debug/output archives
+archive/
+outputs/archived*
