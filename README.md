@@ -1,25 +1,16 @@
-cat > README.md << 'EOF'
-# Potential evaporation and the Bouchet–Morton complementary relationship
+cat > README.md <<'EOF'
+# HESS Water CR (review package)
 
-This repository contains the code and (processed) plot data needed to reproduce the figures and tables in the accompanying HESS manuscript.
+Reproducible code and processed plot data for the HESS manuscript on potential evaporation and the Bouchet–Morton complementary relationship.
 
-## Repository contents
-- `paper/`: submitted manuscript PDF and submission text (abstract, short summary)
-- `src/`: model + analysis code
-- `scripts/`: scripts to regenerate figures/tables
-- `data/`: processed plot data (raw data are obtained separately; see `data/README.md`)
-- `outputs/`: optional pre-generated figures/tables
+## Quick start
+1. Create environment (see requirements/environment file).
+2. Run the main reproduction script:
+   python scripts/99_make_all.py
 
-## Quickstart
-1. Create a Python environment (see `environment/` or `requirements.txt`).
-2. Install requirements.
-3. Run:
-   - `python scripts/99_make_all.py`
-
-## Data access
-See `data/README.md` for how to obtain the input data used in the manuscript.
+## Data
+This repository does not store large raw data files. See `data/README.md` for how to obtain raw inputs and what processed data are included here.
 
 ## Citation
-See `CITATION.cff` (and Zenodo DOI once minted).
+See `CITATION.cff`. A Zenodo DOI will be added after the first GitHub Release.
 EOF
-
